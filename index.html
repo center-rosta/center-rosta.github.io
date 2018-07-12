@@ -1,0 +1,104 @@
+
+
+<html>
+	<head>
+		<title>Центр Роста</title>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>			
+		<script src="https://use.fontawesome.com/a5e30dd034.js"></script>
+		<link rel="stylesheet" href="css/style.css" >
+	    <link rel="stylesheet" href="css/fonts.css">
+	    <link rel="stylesheet" href="css/main.css">
+	    <link rel="stylesheet" href="css/media.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+		
+		
+	</head>
+    
+	<body class="loading">		
+		<div id="wrapper">
+			<video autoplay="1" loop="" id="player">
+            
+			<source src="video/1.mp4" type="video/mp4"><source src="video/1.ogv" type="video/ogg"><source src="video/1.webm" type="video/webm">
+             </video>     
+			<div id="overlay"></div>
+			<div id="main">				
+					<header id="header">		
+                    <img src="logo/Logo_white.png" width="200" height="200" alt="...">					
+					<ul>					
+					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+					</ul>	
+                      <span id="doc_time">Time</span>				
+						<h1>Центр Роста</h1>
+						-----------------------------------------------------------------------------------------------
+						<h4>Центр Роста - совместный проект Института Развития Личности и Программ Сильного Мышления под руководством И. А. Гавриловой</h4>
+						----------------------
+						<h5>Мы работаем по двум основным направлениям:</h5>
+						<h5>1. Центр тренингов и психологического консультирования.</h5>
+						<h5>2. Образовательный, развивающий Центр.</h5>
+						<h5>Наши клиенты - дети, школьники, взрослые и бизнес.</h5>
+						<h5>Телефоны: +7(499) 796-10-66 ; +7(963) 675-63-83<h5>
+						----------------------
+						<li><a href="http://center-rosta.com/" target="_blank">Наш основной сайт</a></li>
+						<nav>
+							<ul>			
+                                <li><a href="https://vk.com/centerosta"  target="_blank" class="fa fa-vk"></a></li>	
+                                <li><a href="https://www.facebook.com/centerosta"  target="_blank" class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/centerrosta/"  target="_blank" class="fa fa-instagram" aria-hidden="true"></a></li>	
+                                <li><a href="map.html" align="center" title="Как добраться" target="_popup" class="fa fa-map-marker"></a></li>
+                            </ul>
+							<ul>
+							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+							</ul>		
+						</nav>
+					</header>				
+			</div>
+		</div>
+	
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+var seconds = d.getSeconds();
+
+
+if (hours <= 9) hours = "0" + hours;
+if (minutes <= 9) minutes = "0" + minutes;
+if (seconds <= 9) seconds = "0" + seconds;
+
+date_time = hours + ":" + minutes + ":" + seconds;
+if (document.layers) {
+ document.layers.doc_time.document.write(date_time);
+ document.layers.doc_time.document.close();
+}
+else document.getElementById("doc_time").innerHTML = date_time;
+ setTimeout("clock()", 1000);
+}
+</script>
+<script type="text/javascript">
+ clock();
+</script>
+
+</script>
+</html>

@@ -1,0 +1,91 @@
+
+
+<html>
+	<head>
+		<title>Центр Роста </title>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>			
+		<script src="https://use.fontawesome.com/a5e30dd034.js"></script>
+		<link rel="stylesheet" href="css/style.css" >
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+		
+		
+	</head>
+    
+	<body class="loading">		
+		<div id="wrapper">
+			<video autoplay="1" loop="" id="player">
+            
+			<source src="video/video3.mp4" type="video/mp4"><source src="video/video3.ogv" type="video/ogg"><source src="video/video3.webm" type="video/webm">
+             </video>     
+			<div id="overlay"></div>
+			<div id="main">				
+					<header id="header">		
+                    <img src="logo/Logo_white.png" width="200" height="200" alt="...">					
+					<ul>					
+					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+					</ul>					
+						<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac25bf07356a7d614fc473c000d6932278c8dedb9dff5619993fbd51d9156c6c7&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+						<nav>
+							<ul>	
+                                <a href="index.html" target="_popup" align="center" title="Вернуться на главную" class="fa fa-chevron-left"></a>
+								<li><a href="https://vk.com/centerosta"  target="_blank" class="fa fa-vk"></a></li>	
+                                <li><a href="https://www.facebook.com/centerosta"  target="_blank" class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/centerrosta/"  target="_blank" class="fa fa-instagram" aria-hidden="true"></a></li>	
+                                <li><a href="https://yandex.ru/maps/-/CBufyAFxDD" target="_popup" class="fa fa-map-marker"></a></li>
+                            </ul>
+							<ul>
+							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+							</ul>		
+						</nav>
+					</header>				
+			</div>
+		</div>
+	
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+var seconds = d.getSeconds();
+
+
+if (hours <= 9) hours = "0" + hours;
+if (minutes <= 9) minutes = "0" + minutes;
+if (seconds <= 9) seconds = "0" + seconds;
+
+date_time = hours + ":" + minutes + ":" + seconds;
+if (document.layers) {
+ document.layers.doc_time.document.write(date_time);
+ document.layers.doc_time.document.close();
+}
+else document.getElementById("doc_time").innerHTML = date_time;
+ setTimeout("clock()", 1000);
+}
+</script>
+<script type="text/javascript">
+ clock();
+</script>
+
+</script>
+</html>
